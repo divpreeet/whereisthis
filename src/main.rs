@@ -1,3 +1,6 @@
+mod cli;
+
 fn main() {
-    println!("whereisthis");
+    let args = cli::parse_args();
+    println!("{:#?}", args);
 }
