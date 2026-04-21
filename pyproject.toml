@@ -1,0 +1,20 @@
+[project]
+name = "whereisthis"
+version = "0.1.0"
+description = "human language based file finder"
+authors = [
+    { name = "divpreeet" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "textual>=0.50.0"
+]
+
+[project.scripts]
+whereisthis = "whereisthis.tui:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

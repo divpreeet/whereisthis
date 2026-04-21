@@ -11,8 +11,8 @@ from typing import Sequence
 from textual.app import App, ComposeResult
 from textual.containers import Horizontal
 from textual.widgets import DataTable, Footer, Header, Input, Markdown, Static
-from match import fuzzy, match
-from scanner import scan
+from whereisthis.match import fuzzy, match
+from whereisthis.scanner import scan
 
 
 def tokenize(text: str) -> list[str]:

@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: whereisthis
+Version: 0.1.0
+Summary: human language based file finder
+Author: divpreeet
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: textual>=0.50.0
