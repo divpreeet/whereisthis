@@ -1,0 +1,35 @@
+Screen {
+    layout: grid;
+    grid-rows: auto auto 1fr auto auto;
+    
+}
+
+#search {
+    margin: 1 1 0 1;
+}
+
+#status {
+    margin: 0 1 1 1;
+    color: $text-muted;
+}
+
+#body {
+    height: 1fr;
+    margin: 0 1;
+}
+
+#results {
+    width: 2fr;
+    border: round $primary;
+    margin-right: 1;
+}
+
+#preview{
+    width: 3fr;
+    border: round $secondary;
+}
+
+#hintbar {
+    margin: 0 1 1 1;
+    color: $text-muted;
+}

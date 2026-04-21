@@ -7,7 +7,7 @@ def main():
     parser.add_argument("query", type=str, help="file to find", nargs='+')
     parser.add_argument("--dir", type=str, default=".", help="directory to look in")
     parser.add_argument("--type", type=str, help="filter by extension")
-    parser.add_argument("--limit", type=int, default=10, help="max results to show")
+    parser.add_argument("--limit", type=int, default=3, help="max results to show")
     parser.add_argument("--hidden", action="store_true", help="go through hidden files")
 
     args = parser.parse_args()
@@ -25,8 +25,9 @@ def main():
         return
     
     shown = results[:args.limit]
-    print(f"{len(results)} results found, showing {len(shown)}")
+    print(f"{len(results)} results found (showing top {len(shown)})")
     for i, path in enumerate(shown, 1):
         print(f"{i:>2}. {path}")
 
-main()
+if __name__ == "__main__":
+    main()
