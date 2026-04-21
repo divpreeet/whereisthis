@@ -3,6 +3,7 @@ pyproject.toml
 whereisthis/__init__.py
 whereisthis/match.py
 whereisthis/scanner.py
+whereisthis/styles.tcss
 whereisthis/tui.py
 whereisthis.egg-info/PKG-INFO
 whereisthis.egg-info/SOURCES.txt
