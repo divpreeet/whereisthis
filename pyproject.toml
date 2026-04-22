@@ -1,6 +1,6 @@
 [project]
 name = "whereisthis"
-version = "0.1.0"
+version = "0.1.2"
 description = "human language based file finder"
 authors = [{ name = "divpreeet" }]
 readme = "README.md"
